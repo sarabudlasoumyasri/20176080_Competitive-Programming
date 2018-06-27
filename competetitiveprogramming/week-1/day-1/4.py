@@ -3,7 +3,7 @@ import unittest
 
 def merge_ranges(intervals):
 
-    s = sorted(intervals, key=lambda tup: t[0])
+    s = sorted(intervals, key=lambda t: t[0])
     merged = []
     for t in s:
 		if not merged:
