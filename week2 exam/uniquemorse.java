@@ -17,15 +17,11 @@ class morse{
 
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);
-		String[] array = {".-","-...","-.-.","-..",".","..-.","--.",
-                         "....","..",".---","-.-",".-..","--","-.",
-                         "---",".--.","--.-",".-.","...","-","..-",
-                         "...-",".--","-..-","-.--","--.."};
+		String[] array = {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",
+				  ".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
 		String org[]={"gin", "zen", "gig","msg"};
-	
-
 			for (int j=0;j<org.length ;j++) {
-					System.out.println(org[j]+"-------->"+uniquemorse(array,org[j]));	
+					System.out.println(org[j]+"--------------->"+uniquemorse(array,org[j]));	
 			}
 
 		System.out.println("total transformations = "+obj.size());
